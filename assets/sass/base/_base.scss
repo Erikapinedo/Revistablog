@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+
+    @include respond-to('small') {
+    	
+  	}
+
+  	@include respond-to('medium') {
+    	
+  	}
+
+  	@include respond-to('large') {
+    	
+  	}
+
+  	@include respond-to('extralarge') {
+    	
+  	}
+
+}
+
+#site-wrapper {
+    margin: 0 auto;
+
+    @include respond-to('small') {
+      width: 100%;
+    }
+
+    @include respond-to('medium') {
+      width: 100%;
+    }
+
+    @include respond-to('large') {
+      width: 960px;
+    }
+
+    @include respond-to('extralarge') {
+      width: 960px;
+    }
+}
